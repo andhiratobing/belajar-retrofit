@@ -3,6 +3,7 @@ package com.example.belajarretrofit
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.belajarretrofit.data.PostResponse
 import com.example.belajarretrofit.databinding.ItemPostBinding
 
 class PostAdapter(private val listPost: ArrayList<PostResponse>):

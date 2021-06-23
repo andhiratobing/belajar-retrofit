@@ -1,4 +1,4 @@
-package com.example.belajarretrofit
+package com.example.belajarretrofit.data
 
 import com.google.gson.annotations.SerializedName
 
