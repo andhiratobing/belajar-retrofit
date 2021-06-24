@@ -27,14 +27,14 @@
   - Header : 
     - Content-Type: application/json
     - Accept: application/json
-  -Body :
+  - Body :
    ```json{
       "userId": "Int, Unique",
       "id": "Int, Unique",
       "title": "String",
       "body": "String"
       }
-  -Response :
+  - Response :
     ```json
         "code": "Number",
         "data":{
