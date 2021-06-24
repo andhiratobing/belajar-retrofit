@@ -28,13 +28,12 @@
     - Content-Type: application/json
     - Accept: application/json
   - Body :
-   ```json{
-      "userId": "Int, Unique",
-      "id": "Int, Unique",
-      "title": "String",
-      "body": "String"
-      }
-      ```
+   ```json
+       "userId": "Int, Unique",
+       "id": "Int, Unique",
+       "title": "String",
+       "body": "String"
+   ```
   - Response :
     ```json
         "code": "Number",
