@@ -24,7 +24,7 @@
   Request:
   - Method : POST
   - Endpoint : `/posts`
-  -Header : 
+  - Header : 
     - Content-Type: application/json
     - Accept: application/json
   -Body :
