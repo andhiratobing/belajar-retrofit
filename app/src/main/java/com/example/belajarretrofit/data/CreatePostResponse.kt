@@ -3,7 +3,7 @@ package com.example.belajarretrofit.data
 import com.google.gson.annotations.SerializedName
 
 data class CreatePostResponse(
-    var user_id: String,
+    var userId: Int,
     var id: Int,
     var title: String,
 

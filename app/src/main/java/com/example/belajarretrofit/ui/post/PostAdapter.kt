@@ -1,4 +1,4 @@
-package com.example.belajarretrofit
+package com.example.belajarretrofit.ui.post
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.belajarretrofit.data.PostResponse
 import com.example.belajarretrofit.databinding.ItemPostBinding
 
-class PostAdapter(private val listPost: ArrayList<PostResponse>):
+class PostAdapter(private val postList: ArrayList<PostResponse>):
     RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
 
 
@@ -27,9 +27,9 @@ class PostAdapter(private val listPost: ArrayList<PostResponse>):
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
-        val listPost = listPost[position]
+        val listPost = postList[position]
         holder.bind(listPost)
     }
 
-    override fun getItemCount(): Int = listPost.size
+    override fun getItemCount(): Int = postList.size
 }
